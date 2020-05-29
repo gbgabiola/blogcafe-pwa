@@ -12,7 +12,7 @@ const coffees = [
 ];
 
 const showCoffees = () => {
-  let output = "";
+  let output = '';
   coffees.forEach(
     ({ name, image }) =>
       (output += `
@@ -26,4 +26,4 @@ const showCoffees = () => {
   container.innerHTML = output;
 }
 
-document.addEventListener("DOMContentLoaded", showCoffees);
+document.addEventListener('DOMContentLoaded', showCoffees);
